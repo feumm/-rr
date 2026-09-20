@@ -1,0 +1,19 @@
+{
+  "name": "Minimalist Portfolio | Minecraft Design",
+  "short_name": "Portfolio",
+  "description": "A high-end graphics design portfolio for Minecraft thumbnails.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#EDEDED",
+  "theme_color": "#EDEDED",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@rr</title>
+    <meta name="description" content="@rr | Minecraft Thumbnail Desinger" />
+    <meta property="og:title" content="@rr" />
+    <meta property="og:description" content="@rr | Minecraft Thumbnail Desinger" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#EDEDED" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="@rr" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./favicon.svg" />
+    <link rel="icon" href="./Creating_custom_logo_with_text_2K_20260918053141.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+      html, body, #root {
+        background-color: #EDEDED !important;
+      }
+      /* Hide scrollbar globally across Chrome, Safari, Edge, Firefox, and embedded containers */
+      html, body, #root, * {
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+      }
+      ::-webkit-scrollbar, *::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        background: transparent !important;
+      }
+    </style>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          for (var reg of regs) reg.unregister();
+        });
+      }
+      if ('caches' in window) {
+        caches.keys().then(function(keys) {
+          for (var k of keys) caches.delete(k);
+        });
+      }
+    </script>
+    <link rel="stylesheet" href="./perf.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./contact-config.js"></script>
+    <script type="module" src="/src/bootstrap.ts"></script>
+  </body>
+</html>
+
