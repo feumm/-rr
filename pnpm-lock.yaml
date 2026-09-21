@@ -1,0 +1,4 @@
+pnpm install
+git add pnpm-lock.yaml
+git commit -m "add pnpm-lock.yaml"
+git push
